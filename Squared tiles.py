@@ -7,21 +7,7 @@ mat=[
 [ '*','*','*','*','*','*']
 ]
 
-def check_matrix3X3():
-    cnt=0
-    for i  in range(6):
-        for j in range(6):
-            if validate(i,j,3):
-                cnt+=1
-    return cnt
 
-def check_matrix2X2():
-    cnt=0
-    for i  in range(6):
-        for j in range(6):
-            if validate(i,j,2):
-                cnt+=1
-    return cnt
 def place_matrix2(user):
     flag=0
     for i in range(6):
@@ -57,9 +43,11 @@ def computer_check(user,level):
         place_matrix2(3)
     elif level==1 and user==2:
         place_matrix2(3)
-    elif level==2:
-        place_matrix2(user)
+    #elif level==2:
+        #place_matrix2(user)
     elif level==3:
+        place_matrix2(2)
+    else:
         place_matrix2(2)
 def assign_mat(mm):
     prev = [
@@ -77,9 +65,8 @@ def assign_mat(mm):
 
 
 level=1
-
+n=0
 while(1):
-    prev_matrix=assign_mat(mat)
     flag = 0
     user=int(input("Enter your squared matrix(2*2 or 3*3): "))
     for i in range(6):
@@ -89,11 +76,12 @@ while(1):
                 flag=1
                 break
         if flag==1:
+            n=1
             break
     print()
     print()
-    if prev_matrix==mat:
-        print("Computer Win!!!!!")
+    if flag==0:
+        print("AI Win!!!!!")
         break
     print("user: ")
     print_matrix()
@@ -101,6 +89,8 @@ while(1):
     computer_check(user,level)
     print_matrix()
     level+=1
+if n==0:
+    print("User win")
 
 
 
