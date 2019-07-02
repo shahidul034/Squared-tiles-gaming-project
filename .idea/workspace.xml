@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="df0c51fb-c181-4a61-bed9-374c7375faed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/try.py" beforeDir="false" afterPath="$PROJECT_DIR$/try.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/try/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/try/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/try/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/try/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/try/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/try/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/try/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/try/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/try/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/try/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/try/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/try/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/try/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/try/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/try/warn-try.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/try/warn-try.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/try/xref-try.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/try/xref-try.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/try.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/try.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,15 +24,16 @@
     <session id="430954104">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/try.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="148" column="40" lean-forward="true" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
+            <state relative-caret-position="393">
+              <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
               <folding>
                 <marker date="1561355540172" expanded="true" signature="193:2083" ph="..." />
                 <marker date="1561355540172" expanded="true" signature="2978:3010" ph="..." />
@@ -92,9 +102,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="752" />
-    <option name="y" value="-17" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="751" />
+    <option name="y" value="-18" />
     <option name="width" value="1100" />
     <option name="height" value="1080" />
   </component>
@@ -104,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,10 +125,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -272,12 +282,12 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.042961005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.084600136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2738255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2738255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,8 +326,8 @@
     <entry file="file://$PROJECT_DIR$/../filelocker global/test1.py" />
     <entry file="file://$PROJECT_DIR$/try.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="148" column="40" lean-forward="true" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
+        <state relative-caret-position="393">
+          <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
           <folding>
             <marker date="1561355540172" expanded="true" signature="193:2083" ph="..." />
             <marker date="1561355540172" expanded="true" signature="2978:3010" ph="..." />
