@@ -1,4 +1,2 @@
-# Squared-tiles-gaming-project
-This game name is squared tiles. This is an AI game. Here AI plays against the user. First, we have a 6X6 matrix which is our game play space. User tries to fill the square using 3X3 or 2X2 matrix.  
-
-The first user gives his move then AI gives his move. If user give a move but AI does not give any move he will lose. Suppose user press   2 for moves  then AI gives press 2 for moves when a user tries to next move he does not give any move so he will lose.
+# Introducing 'Squared Tiles': An AI-Based Strategy Game for Dynamic Gameplay on a 6x6 Matrix
+Squared Tiles is an interactive AI game where users engage in a challenging match against the artificial intelligence system. The game revolves around a 6x6 matrix, serving as the game's playing space. The primary objective for the user is to strategically fill the matrix using either 3x3 or 2x2 matrices.
